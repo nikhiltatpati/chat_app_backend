@@ -19,6 +19,7 @@ const UserSchema = new mongoose.Schema({
     max: 1024,
     min: 6,
   },
+  active_chats: [],
   date: {
     type: Date,
     default: Date.now,
